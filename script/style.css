@@ -19,9 +19,14 @@ nav
     margin:auto;
     background-color: black;
     padding-bottom: 5px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
     margin-top:-5px;
+}
+
+nav img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 a:hover
@@ -41,6 +46,13 @@ a:link
     text-decoration: none;
     color:white;
 
+}
+
+.lien_conservé
+{
+    background-color: white;
+    border-radius: 10px;
+    color:black;
 }
 
 #detail_usr
@@ -91,6 +103,7 @@ a:link
     display: inline-block;
     margin-right:20px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 #site, #application, #ifa

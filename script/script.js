@@ -13,6 +13,12 @@ $(window.document).ready(function() {
 
      $("body").on("click", "a", function()
      {
+        // Modification du CSS
+        // permet de conserver le CSS du survol sur le dernier bouton clic
+        $('.lien').removeClass('lien_conservé');
+        $(this).addClass('lien_conservé');
+
+
         $('.usr').remove();
         $('#icone').hide();
         var myId=$(this).attr('id');
@@ -51,7 +57,6 @@ $(window.document).ready(function() {
         });
         $('#icone').slideDown();
      });
-     
 });
 
 
